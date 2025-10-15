@@ -1,6 +1,5 @@
 # Smart Recipe Generator
 1. Project Description
-
 An application that suggests recipes based on available ingredients, supporting manual input or image recognition, with filters, nutritional info, substitutions, and rating functionality.
 
 2. Features
@@ -24,20 +23,20 @@ An application that suggests recipes based on available ingredients, supporting 
     * Image uploads analyzed via Coco-SSD model
 
 4. Technologies Used
-* HTML, CSS, JavaScript
-* TensorFlow.js (Coco-SSD) for image detection
-* LocalStorage for offline support
-* Free hosting (Netlify, GitHub Pages)
+    * HTML, CSS, JavaScript
+    * TensorFlow.js (Coco-SSD) for image detection
+    * LocalStorage for offline support
+    * Free hosting (Netlify, GitHub Pages)
+
 
 5. Live Demo / Deployment
 	https://animated-granita-245a3b.netlify.app/
 
 6. Usage Instructions
-* Step-by-step for users:
-    1. Enter ingredients manually or upload image
-    2. Select dietary preference, time, difficulty, servings
-    3. Click Find Recipes
-    4. View recipes, substitutions, and ratings
+    * Enter  ingredients manually or upload image
+    * Select dietary preference, time, difficulty, servings
+    * Click Find Recipes
+    * View recipes, substitutions, and ratings
 
 7. Project Approach / Write-up
 	The Smart Recipe Generator suggests recipes based on available ingredients, dietary preferences, and cooking constraints. Recipes are scored using a matching algorithm that prioritizes 	 recipes with more matching ingredients and fewer missing ones. For missing items, a substitution logic provides alternatives, such as replacing milk with almond or soy milk.
@@ -47,15 +46,14 @@ An application that suggests recipes based on available ingredients, supporting 
 	The app includes a rating and favorites system using browser localStorage and supports offline usage for previously loaded recipes. The interface is mobile-responsive and user-friendly, 	ensuring easy navigation and efficient recipe discovery.
 
 8. Recipe Database
-* Mention number of recipes included (minimum 20)
-* Could include a link or screenshot of recipes.json
+    * Mention number of recipes included (minimum 20)
+    * Could include a link or screenshot of recipes.json
 
 9. Error Handling / UX
-* Explain:
     * Loading indicators
     * Handling no matches
     * Invalid file uploads for image recognition
     * LocalStorage fallback
 
 10. Acknowledgements / References
-* TensorFlow.js Coco-SSD model
+    * TensorFlow.js Coco-SSD model
