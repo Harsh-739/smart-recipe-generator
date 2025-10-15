@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Recipe Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.12.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0/dist/mobilenet.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🍲 Smart Recipe Generator</h1>
+    <p>Find perfect recipes based on ingredients you have!</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="controls-header">
+        <h2>Find Your Perfect Recipe</h2>
+        <button id="clearFilters" class="clear-btn">Clear All</button>
+      </div>
+
+      <div class="input-group">
+        <label for="ingredientsInput">Enter ingredients (comma separated)</label>
+        <input type="text" id="ingredientsInput" placeholder="tomato, pasta, garlic, olive oil...">
+        <small class="muted">Start typing or upload an image below</small>
+      </div>
+
+      <div class="filters-grid">
+        <div class="input-group">
+          <label for="dietFilter">Dietary Preference</label>
+          <select id="dietFilter">
+            <option value="any">Any diet</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="gluten-free">Gluten-free</option>
+            <option value="dairy-free">Dairy-free</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="timeFilter">Max Cooking Time</label>
+          <select id="timeFilter">
+            <option value="any">Any time</option>
+            <option value="15">≤15 min</option>
+            <option value="30">≤30 min</option>
+            <option value="45">≤45 min</option>
+            <option value="60">≤60 min</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="difficultyFilter">Difficulty</label>
+          <select id="difficultyFilter">
+            <option value="any">Any difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="categoryFilter">Meal Category</label>
+          <select id="categoryFilter">
+            <option value="any">Any category</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="snack">Snack</option>
+            <option value="dessert">Dessert</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="servingsInput">Servings</label>
+        <input type="number" id="servingsInput" placeholder="2" min="1" max="12" value="2">
+      </div>
+
+      <button id="findBtn" class="find-btn">🔍 Find Recipes</button>
+
+      <div class="divider">— or —</div>
+
+      <div class="input-group">
+        <label for="imageUpload">Upload Food Image</label>
+        <input type="file" id="imageUpload" accept="image/*" capture="environment">
+        <p id="detected" class="muted"></p>
+        <small class="muted">We'll detect ingredients from your food photos</small>
+      </div>
+    </section>
+
+    <section id="results">
+      <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Loading recipes and AI model...</p>
+      </div>
+      
+      <div id="resultsHeader" class="results-header">
+        <h2>Recommended Recipes</h2>
+        <p class="muted">Start by entering ingredients or uploading an image</p>
+      </div>
+      
+      <ul id="recipesList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <small>🍳 Smart Recipe Generator • Local ratings saved in your browser • Works offline once loaded</small>
+      <small>Uses TensorFlow.js for image recognition</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "r1",
+    "name": "Pasta with Tomato & Garlic",
+    "ingredients": ["pasta", "tomato", "garlic", "olive oil", "salt", "pepper"],
+    "steps": ["Boil pasta", "Saute garlic & tomato", "Mix and serve"],
+    "time": 20,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 2,
+    "nutrition": {"calories": 450, "protein": 12}
+  },
+  {
+    "id": "r2",
+    "name": "Vegetable Stir Fry",
+    "ingredients": ["bell pepper", "carrot", "broccoli", "soy sauce", "garlic", "oil"],
+    "steps": ["Chop veggies", "Stir-fry with sauce", "Serve with rice"],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "vegan",
+    "servings": 2,
+    "nutrition": {"calories": 300, "protein": 8}
+  },
+  {
+    "id": "r3",
+    "name": "Chicken Salad",
+    "ingredients": ["chicken", "lettuce", "tomato", "olive oil", "lemon", "salt"],
+    "steps": ["Cook chicken", "Toss with veggies and dressing", "Serve"],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "any",
+    "servings": 2,
+    "nutrition": {"calories": 350, "protein": 30}
+  },
+  {
+    "id": "r4",
+    "name": "Omelette",
+    "ingredients": ["egg", "salt", "pepper", "butter", "milk"],
+    "steps": ["Beat eggs", "Cook in pan with butter", "Fold and serve"],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 1,
+    "nutrition": {"calories": 200, "protein": 14}
+  },
+  {
+    "id": "r5",
+    "name": "Banana Smoothie",
+    "ingredients": ["banana", "milk", "honey", "ice"],
+    "steps": ["Blend everything", "Serve chilled"],
+    "time": 5,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 1,
+    "nutrition": {"calories": 250, "protein": 6}
+  },
+  {
+    "id": "r6",
+    "name": "Tomato Soup",
+    "ingredients": ["tomato", "onion", "garlic", "vegetable stock", "salt", "pepper"],
+    "steps": ["Saute onion & garlic", "Add tomato & stock", "Simmer & blend"],
+    "time": 30,
+    "difficulty": "medium",
+    "diet": "vegan",
+    "servings": 3,
+    "nutrition": {"calories": 120, "protein": 3}
+  },
+  {
+    "id": "r7",
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": ["bread", "cheese", "butter"],
+    "steps": ["Butter bread", "Add cheese", "Grill until golden"],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 1,
+    "nutrition": {"calories": 320, "protein": 10}
+  },
+  {
+    "id": "r8",
+    "name": "Fried Rice",
+    "ingredients": ["rice", "egg", "soy sauce", "carrot", "peas", "oil"],
+    "steps": ["Cook rice", "Scramble eggs", "Mix all with sauce"],
+    "time": 20,
+    "difficulty": "easy",
+    "diet": "any",
+    "servings": 2,
+    "nutrition": {"calories": 400, "protein": 12}
+  },
+  {
+    "id": "r9",
+    "name": "Veggie Pizza",
+    "ingredients": ["pizza base", "tomato sauce", "cheese", "bell pepper", "onion"],
+    "steps": ["Spread sauce", "Add toppings", "Bake until golden"],
+    "time": 25,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "servings": 2,
+    "nutrition": {"calories": 500, "protein": 18}
+  },
+  {
+    "id": "r10",
+    "name": "Fruit Salad",
+    "ingredients": ["apple", "banana", "grapes", "honey", "lemon juice"],
+    "steps": ["Chop fruits", "Add honey & lemon", "Toss and serve"],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegan",
+    "servings": 2,
+    "nutrition": {"calories": 180, "protein": 2}
+  },
+  {
+    "id": "r11",
+    "name": "Masala Chai",
+    "ingredients": ["tea leaves", "milk", "water", "ginger", "cardamom", "sugar"],
+    "steps": ["Boil water with spices", "Add tea & milk", "Simmer and strain"],
+    "time": 8,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 2,
+    "nutrition": {"calories": 120, "protein": 3}
+  },
+  {
+    "id": "r12",
+    "name": "Pancakes",
+    "ingredients": ["flour", "egg", "milk", "sugar", "butter"],
+    "steps": ["Mix batter", "Cook on pan", "Flip and serve with syrup"],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 2,
+    "nutrition": {"calories": 300, "protein": 7}
+  },
+  {
+    "id": "r13",
+    "name": "Grilled Chicken",
+    "ingredients": ["chicken", "lemon", "garlic", "salt", "pepper", "oil"],
+    "steps": ["Marinate chicken", "Grill until cooked", "Serve hot"],
+    "time": 30,
+    "difficulty": "medium",
+    "diet": "any",
+    "servings": 2,
+    "nutrition": {"calories": 380, "protein": 35}
+  },
+  {
+    "id": "r14",
+    "name": "Mango Lassi",
+    "ingredients": ["mango", "yogurt", "sugar", "milk"],
+    "steps": ["Blend all ingredients", "Serve chilled"],
+    "time": 5,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 1,
+    "nutrition": {"calories": 180, "protein": 5}
+  },
+  {
+    "id": "r15",
+    "name": "Spaghetti Bolognese",
+    "ingredients": ["spaghetti", "minced beef", "tomato sauce", "onion", "garlic", "oil"],
+    "steps": ["Cook pasta", "Cook beef with sauce", "Mix and serve"],
+    "time": 35,
+    "difficulty": "medium",
+    "diet": "any",
+    "servings": 2,
+    "nutrition": {"calories": 600, "protein": 25}
+  },
+  {
+    "id": "r16",
+    "name": "Vegetable Pulao",
+    "ingredients": ["rice", "peas", "carrot", "onion", "garam masala", "oil"],
+    "steps": ["Saute vegetables", "Add rice and spices", "Cook until done"],
+    "time": 25,
+    "difficulty": "medium",
+    "diet": "vegan",
+    "servings": 3,
+    "nutrition": {"calories": 350, "protein": 8}
+  },
+  {
+    "id": "r17",
+    "name": "Chocolate Milkshake",
+    "ingredients": ["milk", "cocoa powder", "sugar", "ice cream"],
+    "steps": ["Blend all ingredients", "Serve chilled"],
+    "time": 5,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 1,
+    "nutrition": {"calories": 320, "protein": 9}
+  },
+  {
+    "id": "r18",
+    "name": "Caesar Salad",
+    "ingredients": ["lettuce", "croutons", "parmesan", "olive oil", "lemon juice"],
+    "steps": ["Mix dressing", "Toss with lettuce and croutons", "Serve"],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "servings": 2,
+    "nutrition": {"calories": 220, "protein": 6}
+  },
+  {
+    "id": "r19",
+    "name": "Tacos",
+    "ingredients": ["taco shells", "beef", "lettuce", "tomato", "cheese", "salsa"],
+    "steps": ["Cook beef", "Fill shells with toppings", "Serve with salsa"],
+    "time": 20,
+    "difficulty": "medium",
+    "diet": "any",
+    "servings": 2,
+    "nutrition": {"calories": 400, "protein": 20}
+  },
+  {
+    "id": "r20",
+    "name": "Poha",
+    "ingredients": ["flattened rice", "onion", "mustard seeds", "turmeric", "lemon", "oil"],
+    "steps": ["Saute onion and spices", "Add poha and mix", "Garnish with lemon"],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "vegan",
+    "servings": 2,
+    "nutrition": {"calories": 250, "protein": 5}
+  }
+]
