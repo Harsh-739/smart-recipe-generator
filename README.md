@@ -1,5 +1,6 @@
 # Smart Recipe Generator
 1. Project Description
+
 An application that suggests recipes based on available ingredients, supporting manual input or image recognition, with filters, nutritional info, substitutions, and rating functionality.
 
 2. Features
